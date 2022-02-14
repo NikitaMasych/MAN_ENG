@@ -2,13 +2,9 @@ import turtle
 
 def square(a):
 
-    turtle.begin_fill()
-    
     for _ in range(4):
         turtle.forward(a)
         turtle.left(90)
-
-    turtle.end_fill()
 
 def cords(x, y):
 
